@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #FFD700;
+    padding: 20px;
+    &-button{
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid;
+        background-color: aqua;
+        margin-right: 30px;
+    }
+}

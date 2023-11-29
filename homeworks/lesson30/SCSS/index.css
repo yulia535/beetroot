@@ -312,20 +312,6 @@ ul {
   margin: auto;
 }
 
-.item {
-  display: block;
-  width: 150px;
-  height: 20px;
-  border-radius: 5px;
-  border: 1px solid;
-  background-color: #FFD700;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.item:hover {
-  transform: scale(1.1);
-}
-
 .header {
   background-color: #FFD700;
   padding: 20px;
@@ -342,4 +328,15 @@ ul {
 .header-flex {
   display: flex;
   align-items: center;
+}
+
+.box {
+  height: 100px;
+  padding: 20px;
+}
+.box label {
+  margin-bottom: 20px;
+}
+.box input {
+  margin-left: 10px;
 }/*# sourceMappingURL=index.css.map */

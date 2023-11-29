@@ -1,6 +1,4 @@
 .header{
-    display: flex;
-    align-items: center;
     background-color: #FFD700;
     padding: 20px;
     &-button{
@@ -11,4 +9,8 @@
         background-color: aqua;
         margin-right: 30px;
     }
+}
+.header-flex{
+    display: flex;
+    align-items: center;
 }

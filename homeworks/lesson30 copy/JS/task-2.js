@@ -3,4 +3,4 @@ const stringType = '1';
 const numberType = 2;
 const result = numberType + Number.parseInt(stringType);
 
-export { result };
+export {result};

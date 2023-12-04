@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>types</title>
+    <script src="https://kit.fontawesome.com/3622719c77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./SCSS/index.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="container header-flex">
+                <a class="header-button " href="../../index.html"><span class="fa-solid fa-arrow-left"></span> back to list</a>
+                <h1>types</h1>
+            </div>
+        </header>
+        <div class="container">
+            <div class="box">
+                <label for="text-input">Введіть обсяг флешки в Гб<input type="text" id='text-input' class="text-input"></label>
+                <p class="output"></p>
+            </div>
+            <div class="box">
+                <label for="wallet-input">Введіть суму грошей в гаманці<input type="text" class="wallet-input" id="wallet-input"></label>
+                <label for="price-input">Введіть вартість шоколадки<input type="text" class="price-input" id="price-input"></label>
+                <button class="walletButton">порахувати</button>
+                <p class="wallet-output"></p>
+            </div>
+
+            <div class="box">
+                <label for="num-input">Введіть тризначне число<input type="text" class="num-input" id="num-input"></label>
+                <button class="numButton">перевернути</button>
+                <p class="num-output"></p>
+            </div>
+            <div class="box">
+                <label for="deposit-input">Введіть суму вкладу в банк на 2 місяці, з процентною ставкою депозиту 5% річних<input type="text" class="deposit-input" id="deposit-input"></label>
+                <button class="depositButton">порахувати</button>
+                <p class="deposit-output"></p>
+            </div>
+
+            
+        </div>
+    </div>
+    <script type="module" src="./index.js">
+    </script>
+</body>
+</html>
